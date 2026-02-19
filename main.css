@@ -72,8 +72,8 @@
     gap: 48px;
     display: flex;
     position: relative;
-    left: 280px;
-    top: 70px;
+    left: 255px;
+    top: 50px;
     width: 100.67415618896484px;
     height: 80px;
 }
@@ -82,15 +82,26 @@
     display: flex;
     position: relative;
     top: 190px;
+    left: 50px;
     gap: 32px;
 }
 
 .g2 {
     position: relative;
-    top: 80px;
+    top: 2px;
 }
 
 .g1 {
     position: relative;
-    top: 80px;
+    top: 100px;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
 }

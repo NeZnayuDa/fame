@@ -19,7 +19,7 @@ let ff = [
 document.addEventListener('DOMContentLoaded', () => {
     const nijeLegoDiv = document.querySelector('.nije_lego');
 
-    const item = ff[0]; // только одно фото
+    const item = ff[0];
 
     const div = document.createElement('div');
     div.classList.add('item');
@@ -27,11 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const img = document.createElement('img');
     img.src = item.image;
     img.alt = item.text;
-
-    // размеры
     img.style.width = "736px";
     img.style.height = "700px";
-    img.style.objectFit = "cover"; // чтобы не растягивалось криво
+    img.style.objectFit = "cover";
 
     const text = document.createElement('p');
     text.textContent = `${item.text} - ${item.module}`;
