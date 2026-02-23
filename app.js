@@ -1,16 +1,21 @@
 let ff = [
     {
-        image: "ss.png",
+        image: "rr.png",
         text: "New",
         module: "Atarashi Series®"
     },
     {
-        image: "rr.png",
+        image: "ss.png",
         text: "Featured",
         module: "Kensho Series®"
     },
     {
         image: "gg.png",
+        text: "Handmade",
+        module: "Nairo Series®"
+    },
+    {
+        image: "dddsf.png",
         text: "Handmade",
         module: "Nairo Series®"
     }
@@ -19,7 +24,7 @@ let ff = [
 document.addEventListener('DOMContentLoaded', () => {
     const nijeLegoDiv = document.querySelector('.nije_lego');
 
-    const item = ff[0];
+    const item = ff[3];
 
     const div = document.createElement('div');
     div.classList.add('item');
